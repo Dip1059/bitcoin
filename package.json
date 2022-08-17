@@ -1,5 +1,5 @@
 {
-  "name": "bitcoin-dk",
+  "name": "@dk/bitcoin",
   "description": "Communicate with bitcoind and other free shared nodes via JSON-RPC. customized from package `bitcoin`",
   "version": "1.0.0",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dip1059/bitcoin-dk"
+    "url": "https://github.com/Dip1059/bitcoin"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -27,9 +27,9 @@
     "test": "make test"
   },
   "bugs": {
-    "url": "https://github.com/Dip1059/bitcoin-dk/issues"
+    "url": "https://github.com/Dip1059/bitcoin/issues"
   },
-  "homepage": "https://github.com/Dip1059/bitcoin-dk",
+  "homepage": "https://github.com/Dip1059/bitcoin",
   "directories": {
     "test": "test"
   },
