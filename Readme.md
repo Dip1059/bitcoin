@@ -1,6 +1,6 @@
-# @dk/bitcoin
+# bitcoin
 
-@dk/bitcoin is a simple wrapper for the Bitcoin client's JSON-RPC API. It enables to use both free shared node apikey based rpc url and user:pass based node url. It is customized from <br>
+bitcoin is a simple wrapper for the Bitcoin client's JSON-RPC API. It enables to use both free shared node apikey based rpc url and user:pass based node url. It is customized from <br>
 ```node-bitcoin:``` https://github.com/jb55/node-bitcoin.
 
 The API is equivalent to the API document [here](https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_Calls_list).
@@ -9,11 +9,11 @@ object, or you may call the API directly using the `cmd` method.
 
 ## Install
 
-`npm install @dk/bitcoin`
+`npm install @dip1059/bitcoin`
 
 or
 
-`yarn add @dk/bitcoin`
+`yarn add @dip1059/bitcoin`
 
 ## Examples
 
