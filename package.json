@@ -1,7 +1,7 @@
 {
   "name": "@dip1059/bitcoin",
   "description": "Communicate with bitcoind and other free shared nodes via JSON-RPC. customized from package `bitcoin`",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "keywords": [
     "bitcoin",
