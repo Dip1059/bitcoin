@@ -1,5 +1,18 @@
+export type rpcOpts = {
+  host: string
+  port?: string | number
+  user?: string
+  pass?: string
+  path?: string
+  wallet?: string
+  ssl: boolean
+  sslStrict?: boolean
+  sslCa?: Buffer
+  timeout?: number
+}
+
 export class Client {
-  constructor(opts: any);
+  constructor(opts: rpcOpts);
   addMultiSigAddress(...args: any[]): any;
   addNode(...args: any[]): any;
   backupWallet(...args: any[]): any;
